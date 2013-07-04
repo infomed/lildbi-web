@@ -18,8 +18,6 @@ class DocumentsController extends AppController {
 	}
 
 	function index() { //FUNCIONA el buscar 
-		
-		//Esto es una prueba
 
 		//All Documents
 		$db = $this->Document->curlGet($this->Auth->user('username').'/_all_docs');
